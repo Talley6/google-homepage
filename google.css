@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.85rem;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 17px 0;
+    color: #000;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: flow;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 515px;
+}
+
+.left-nav li {
+    padding-left: 15px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+}
+
+.right-nav li {
+    padding-left: 15px;
+}
+
+.nav-icons {
+    display: flex;
+    flex: 0 1 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.apps img{
+    width: 12px;
+    padding-left: 15px;
+    opacity: 55%;
+}
+
+.avatar img{
+    width: 32px;
+    border-radius: 50%;
+    padding-left: 15px;
+}
+
+.logo-container {
+    height: 233px;
+    width: 100%;
+    margin-top: 89px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    display: block;
+    padding-top: 109px;
+    width: 272px;
+    margin: 0 auto 0 auto;
+}
+
+.search-container {
+    border: 1px solid #e4e4e4;
+    border-radius: 25px;
+    height: 20px;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-icon {
+    height: 20px;
+    width: auto;
+}
+
+.form-control {
+    position: relative;
+    margin: 0 auto 0 auto;
+    border: none;
+    width: 480px;
+    height: 20px;
+    background: transparent;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.footer-links {
+    display: flex;
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-links {
+    display: flex;
+    padding-right: 355px;
+}
+
+.right-links {
+    display: flex;
+    padding-right: 55px;
+}
